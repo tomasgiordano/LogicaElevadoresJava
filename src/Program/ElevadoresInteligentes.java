@@ -21,7 +21,7 @@ public class ElevadoresInteligentes {
 		System.out.println("Llamado de elevador en el piso 1"); //(no pongo planta baja ya que todos los inicialice en ese piso)
 		System.out.println("Posicion en el array del elevador que respondera: " + llamarElevador(elevadores,pisos,1));
 		
-		System.out.println("\n\n Posicion en la que quedaron los elevadores: \nElevador 1: "+elevadores[0]+"\nElevador 2: "+elevadores[1]+"\nElevador 3: "+elevadores[2]);
+		System.out.println("\n\n Pisos en los que quedaron los elevadores: \nElevador 1: "+elevadores[0]+"\nElevador 2: "+elevadores[1]+"\nElevador 3: "+elevadores[2]);
 	}
 	
 	public static int llamarElevador(int[] elevadores,int[] pisos,int pisoDestino) {
